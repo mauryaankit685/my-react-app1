@@ -114,7 +114,7 @@ export function FakeProduct(){
                                     <img  key={cartData.id} height={'70px'} src={cartData.image} />
                                 </dt>
                                 {/* <div onClick={deleteProduct} id={cartData.id} key={cartData.name} className='btn btn-danger m-1 delete_btn'> */}
-                                <i onClick={deleteProduct} id={cartData.id} class="bi bi-trash btn-danger"></i>
+                                <i onClick={deleteProduct} id={cartData.id} className="bi bi-trash btn-danger"></i>
                                 {/* </div> */}
                             </div>
                         )
@@ -134,7 +134,7 @@ export function FakeProduct(){
                                 <img src={product.image} className="card-img-top"/>
                                 <div className="card-body card_body h-100">
                                     <h5 className="card-title fs-6">{product.title}</h5>
-                                    <button id={product.id} key={product.id} onClick={(loadCardIteam)} className="btn btn-primary">Go somewhere</button>
+                                    <button id={product.id} key={product.id} onClick={(loadCardIteam)} className="btn btn-primary">Add to cart</button>
                                 </div>
                             </div>
                         </div>
