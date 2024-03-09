@@ -1,0 +1,36 @@
+/* .container-fluid{
+    background-color: black;
+    height: 100vmax;
+    color:white;
+    background-image: url('../../public/netflix.png');
+    background-size: contain;
+} */
+.card_body{
+    height: 220px;
+}
+.cartIteam{
+    display: flex;
+}
+.cart_iteam{
+    /* display: flex; */
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.box{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vmax;
+    width: 100vmax;
+}
+section{
+    height: 400px;
+}
+/* .card-img-top {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+}
+.card-body{
+    height: 110px;
+    width: 100%;
+} */
