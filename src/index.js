@@ -11,15 +11,16 @@ import {FakeProduct} from './components/FakeProduct';
 import {FormComponent} from './components/FormComponent';
 import RegistrationForm from './components/RegistrationFrom';
 import ParentComponent from './components/ParentComponent';
-
+import FormikComponent from './components/FormikComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     {/* <ParentComponent/> */}
-    <FakeProduct/>
+    {/* <FakeProduct/> */}
     {/* <NetflixIndex/> */}
     {/* <RegistrationForm/> */}
+    <FormikComponent/>
   </React.StrictMode>
 
   
