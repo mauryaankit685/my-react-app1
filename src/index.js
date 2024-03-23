@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import {NetFlixRegister} from './components/NetflixRegister';
@@ -12,6 +14,8 @@ import {FormComponent} from './components/FormComponent';
 import RegistrationForm from './components/RegistrationFrom';
 import ParentComponent from './components/ParentComponent';
 import FormikComponent from './components/FormikComponent';
+import DigitalClock from './components/DigitalClock';
+import Header from './components/Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -20,7 +24,9 @@ root.render(
     {/* <FakeProduct/> */}
     {/* <NetflixIndex/> */}
     {/* <RegistrationForm/> */}
-    <FormikComponent/>
+    {/* <FormikComponent/> */}
+    {/* <DigitalClock/> */}
+    <Header></Header>
   </React.StrictMode>
 
   

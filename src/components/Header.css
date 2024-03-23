@@ -1,0 +1,8 @@
+.logo{
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 2px;
+    /* background-color: rgb(243, 53, 53); */
+    padding: 2px;
+    border-radius:0px 5px 0px 5px;
+    text-shadow: 1px 1px rgb(74, 177, 105);
+}
