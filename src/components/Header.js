@@ -1,4 +1,4 @@
-
+import { NavLink } from 'react-router-dom';
 import './Header.css'
 export default function Header() {
     
@@ -13,10 +13,10 @@ export default function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active" aria-current="page" ><NavLink className="navLink" to="/">Home</NavLink></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" ><NavLink className="navLink" to="/About">About</NavLink></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Our Vision</a>
@@ -30,8 +30,6 @@ export default function Header() {
                                 <li><a className="dropdown-item" href="#">Education</a></li>
                                 <li><a className="dropdown-item" href="#">General</a></li>
                                 <li><a className="dropdown-item" href="#">Covid care</a></li>
-                                {/* <li><hr className="dropdown-divider"/></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li> */}
                             </ul>
                             
                         </li>
@@ -63,7 +61,7 @@ export default function Header() {
                             
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact Us</a>
+                            <a className="nav-link" href="#"><NavLink className="navLink" to="/Contact">Contact Us</NavLink></a>
                         </li>
 
                         

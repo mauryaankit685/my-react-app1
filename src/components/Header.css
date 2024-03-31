@@ -6,3 +6,7 @@
     border-radius:0px 5px 0px 5px;
     text-shadow: 1px 1px rgb(74, 177, 105);
 }
+.navLink{
+    text-decoration: none;
+    color:whitesmoke;
+}
